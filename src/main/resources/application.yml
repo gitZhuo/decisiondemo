@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  datasource:
+    username: root
+    password: 123
+    url: jdbc:mysql:///clause?useUnicode=true&useSSL=true&serverTimezone=GMT
+    driver-class-name: com.mysql.cj.jdbc.Driver
